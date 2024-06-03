@@ -13,6 +13,7 @@ dependencies:
   provider: ^6.1.2
   equatable: ^2.0.0
   json_annotation: ^4.9.0
+  flutter_mjpeg: ^2.0.4
 
 dev_dependencies:
   flutter_test:
