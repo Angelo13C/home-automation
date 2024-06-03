@@ -16,6 +16,7 @@ dependencies:
   flutter_mjpeg: ^2.0.4
   flutter_hooks: ^0.20.5
   file_picker: ^8.0.3
+  window_manager: ^0.3.9
 
 dev_dependencies:
   flutter_test:
