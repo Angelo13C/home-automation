@@ -47,6 +47,9 @@ class _CreateRoomPageState extends State<CreateRoomPage> {
                   if (value == null || value.isEmpty) {
                     return 'Please enter some text';
                   }
+                  if (widget.roomList.rooms.any((room) => room.name == value)) {
+                    return 'A room with this name already exists!';
+                  }
                   return null;
                 },
               ),
